@@ -24,6 +24,12 @@
                 "roles/dataspectsStandardSMWHostingAnsibleRole"
             ],
             "extra_arguments": "-v"
+        },
+        {
+            "type": "shell",
+            "scripts": [
+                "scripts/apt-get-upgrade.sh"
+            ]
         }
     ],
     "builders": [
