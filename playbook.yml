@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  sudo: True
+  gather_facts: False
+  roles:
+    - dataspectsStandardSMWHostingAnsibleRole
+  vars:
+    SERVER:
+      sudo_user: vagrant
